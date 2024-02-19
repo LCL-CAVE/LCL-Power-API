@@ -1,5 +1,7 @@
 # About LCL-Power-API
-REST API Electricity Parameters
+
+This is a REST API for obtaining the updated data and parameters affecting electricity load and prices in the EU. The database are updated, filtered, and validated daily and includes historical data from 2013 covering 30 EU/EAA countries and 44 bidding zones.
+
 
 #### API Framework and Authentication method
 
