@@ -44,7 +44,7 @@ In case of errors, a JSON object with an error message will be returned.
 POST /v1/table HTTP/1.1
 Host: example.com
 Content-Type: application/x-www-form-urlencoded
-Authorization: Basic Base64Encoded(LCL:pw)
+Authorization: Basic Base64Encoded(USERNAME:PASSWORD)
 
 table=actual_generation&bidding_zone=example_zone&date_from=2023-01-01 00:00:00&date_to=2023-01-02 00:00:00
 ```
