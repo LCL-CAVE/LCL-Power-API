@@ -47,5 +47,8 @@ Authorization: Basic Base64Encoded(LCL:pw)
 table=actual_generation&bidding_zone=example_zone&date_from=2023-01-01 00:00:00&date_to=2023-01-02 00:00:00
 ```
 
+![plot](./statics/example_api.png)
+
 #### Database Structure/Relationship
 
+![plot](./statics/database_struct.png)
