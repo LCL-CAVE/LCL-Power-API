@@ -61,4 +61,4 @@ flask run
 
 #### Pipeline Architecture
 
-![plot](./statics/pipline.png)
+![plot](./statics/pipeline.png)
