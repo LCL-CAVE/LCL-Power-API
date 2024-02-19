@@ -1,0 +1,6 @@
+Flask==3.0.2
+Flask_HTTPAuth==4.8.0
+pandas==1.5.0
+Requests==2.31.0
+SQLAlchemy==2.0.27
+Werkzeug==3.0.1
