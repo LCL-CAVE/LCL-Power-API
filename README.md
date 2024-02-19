@@ -1,7 +1,7 @@
 # About LCL-Power-API
 REST API Electricity Parameters
 
-# API Framework and Authentication method
+#### API Framework and Authentication method
 
 This API is a RESTFUL API developed by Flask and Python. The API uses HTTP Basic Authentication for securing endpoints. The username and password should be provided in the request headers.
 
