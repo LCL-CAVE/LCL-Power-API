@@ -10,9 +10,6 @@ app = Flask(__name__)
  
 # SQLite DB URL, adjust the path as necessary
 DATABASE_URI = 'sqlite:///ppav_main.db'
-#Uncomment to use it with the live data
-# DATABASE_URI = "mariadb+mariadbconnector://power_admin:Oocheeth9ohmoo8ooc3oXeiy0nicheiZ@localhost:3306/power"
-
 
 Base = declarative_base()
 # Define the 'BiddingZone'
@@ -30,8 +27,8 @@ from flask_httpauth import HTTPBasicAuth
 from werkzeug.security import generate_password_hash, check_password_hash
 auth = HTTPBasicAuth()
 
-user = 'LCL'
-pw = 'pw'
+user = 'USERNAME'
+pw = 'PASSWORD'
 
 users = {
     user: generate_password_hash(pw)
