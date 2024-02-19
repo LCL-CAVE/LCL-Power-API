@@ -3,8 +3,8 @@ import pandas as pd
 from datetime import datetime
 
 # HTTP Basic Authentication Credentials
-username = 'LCL'
-password = 'pw'
+username = 'USERNAME'
+password = 'PASSWORD'
 url = 'http://127.0.0.1:5000/v1/table'
 
 # Request parameters
